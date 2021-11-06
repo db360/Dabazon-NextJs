@@ -7,8 +7,7 @@ export default function Home() {
       <Head>
         <title>DaB Music BlockChain</title>
       </Head>
-
-      <h1>Hey DABBB</h1>
+      
       {/* Header */}
       <Header />
     </div>

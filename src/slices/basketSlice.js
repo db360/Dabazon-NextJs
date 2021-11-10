@@ -8,7 +8,10 @@ export const basketSlice = createSlice({
   name: "basket",
   initialState,
   reducers: {
-    addToBasket: (state, action) => {},
+    //Actions
+    addToBasket: (state, action) => {
+      state.items = [...state.items, action.payload] // Se manda product a traves de dispatch "addToBasket"
+    },
     removeFromBasket: (state, action) => {},
   },
 });

@@ -21,17 +21,20 @@ function Product({ id, title, price, description, category, image }) {
 
   // Push items into store
   const addItemToBasket = () => {
-    const product =  {
+    const product = {
       id,
       title,
       price,
+      rating,
       description,
       category,
       image,
+      hasPrime,
     };
 
-    dispatch(addToBasket) //Dispatching the action
-  }
+    //Sending the product as an action to REDUX store.. basketSlice
+    dispatch(addToBasket(product)); //Dispatching the action
+  };
 
   return (
     <div className="relative flex flex-col m-5 bg-white z-30 p-10">
@@ -66,7 +69,9 @@ function Product({ id, title, price, description, category, image }) {
         </div>
       )}
 
-      <button onClick={addItemToBasket} className="mt-auto button">Add to Basquet</button>
+      <button onClick={addItemToBasket} className="mt-auto button">
+        Add to Basquet
+      </button>
     </div>
   );
 }

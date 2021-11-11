@@ -16,4 +16,23 @@ export default async (req, res) => {
       },
     },
   }));
+
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    shipping_rates: ['shr_1JuKivKm90bLfMUNphSnZ71J'], // Hay que crearlas en dashboard
+    shipping_address_collection: {
+      allowed_countries: ["GB", "ES", "PT", "FR", "DE", "US"],
+    },
+    line_items: transformedItems,
+    mode: "payment",
+    success_url: `${process.env.HOST}/success`,
+    cancel_url: `${process.env.HOST}/checkout`,
+    metadata: {
+      email,
+      images: JSON.stringify(items.map((item) => item.image)),
+    },
+  });
+
+  res.status(200).json({ id: session.id })
+
 };

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "blockchain-music-138d8",
+  "private_key_id": "07f307382101328e96598ecd02e2301ee4cf8ce6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9g5eGjPWoKDSE\n4yGYfjtg2qzw16eodxAxNXCuSytV1NNPKyChvgmFQZK1JxIb9zmt+FrFqPV47p+M\nCyUl3+y9+bKPD/cf6c23TYcfMHbDNg+vTyMps0wHVw9FPYqLM1dWhUczoDt3BL7Q\npssEcxJ+rOHbbnETaS0ot0X/AJ8PmF/EsMBsnupOU7A04bt2MbExXSsyc/WvKtDd\nCgu8yUmcU3EWqJK/LEiNZSv6cy5lN7Snqac78yAInlUhvMB8JMg2vmpYtFDPNWDR\nkOIBvbr0qYlgRZVnOKEYZqvJOQrkOEJZISTCn0Oqia3dEDTxEsTTfHmQpqtF32ZS\nsiMu9KWVAgMBAAECggEACC6dxKfiVUvDFLevtCNDEgfu7okJCot1bgJ2JnhFWzPQ\nmbrtcj4/r/qoSFzy+bUfTuUJmj4Utw9qYQP8KxnzYTJeJLIWQ9D22kKlIlIX1o7H\nd5StmnfMwQZfuOgSyrbBPxGLBO4WkylnyZ9h5YPIWSLCr5QhmqpwUjEzevJ+a5Bf\n+CcUcywnbdMp21xV4vAycqTUIOi8J1SZyqH+BQMb+WG0eRg2CoSNhOUbZH7F8KZq\nvXIbP1CEQzPVry6Zr/uRtDfPixwXpb9zgKoDJ6DQQTzbebbqaWqmtpNMEK340UnA\nE94+hns4UQym/N3KvZ+0rGNLqm/S1jqqXsLSQVqggwKBgQDzugE32H+EQQH+kayl\nI9cbdoQACWc/MaUfxDSCYGuKs918pX5S3ncSqTyoFt1RCX805aSLGminH02mpJuc\nXy4d42DaKeBG2jbESKQOVECkzRSwGeVvCNAGWnsDbv1m1xpP22fj6JEsod9s/04q\nfWcNdncnJ/2LthZ6M2TruSH48wKBgQDHDrUWpbXwwK2ZtGFaPnEUDEBJLTlPv+h6\n1f4ORMkkJpni/5oQlWyCnnsX2ik1q06EYnJXZkc9/frgP6vC2DlrVC2tmDhDJuH/\no+KqLpmNNy2kbkj6DRDJUPEp9eR31JvmrGE6/ubL9c3C99W1o4l9XDWV7Xq625pd\nIfQNPNWJVwKBgHq2i0h36/RF2uA2rmtTOUntiRaPpXlO4Km22w1NyLfESd8pYAoP\nUnqF1TF4maPkmTSj7w3OlSSYATvHI0Y/MfQAeNI/RVnHIs3/GQLR7t5LF4B2+WrH\nUB3yzn7zEgkGgov0l0FL5lRHiDvT66I/E3TW0bVYUDNY0cZjPAvnYbB7AoGBALmE\nXIOB52I8wM6KjVzE6zBrBpLsoghQbAPnYoK72tZlX3BvFZA1Is9Nkp01RsjtIh1B\nfx0zhlwhU+ohjRvn1wPPjU7HmlADcgeGHt7K1XMGJPSlkD/zY1ysokagE9EWhkHj\nEC8il8kpCh6WSkeh5aa/BHX5wTNbLa900HZx5vW7AoGAf2UYyFtohLimFr9Rta/n\nIlWa6qhR/3kKKQZdBC8ec1b5gxfjSHyNWMl5loeafQbtNXHu+EfVlgDq1oB4j1Qw\n1WHJ8kNmaxdpyzMIx+nlUUTfLeff6WlyDM8cwYRv38cmwys4PXGN61dxIaJfzpoo\n8AMWDPhhwmBSIPfxjx/DDWk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-iw99p@blockchain-music-138d8.iam.gserviceaccount.com",
+  "client_id": "109245886440930930316",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-iw99p%40blockchain-music-138d8.iam.gserviceaccount.com"
+}
